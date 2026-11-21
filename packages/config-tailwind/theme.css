@@ -1,0 +1,60 @@
+/*
+ * Electronic Hub.bd design tokens (extracted from the customer reference UI).
+ * Tailwind v4: imported by each app's globals.css after `@import "tailwindcss"`.
+ */
+@theme {
+  /* Brand */
+  --color-brand: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-300: #93c5fd;
+  --color-brand-400: #60a5fa;
+  --color-verified: #0b5cad;
+
+  /* Ink / text */
+  --color-ink: #14213d;
+  --color-ink-800: #1c2c4f;
+  --color-ink-950: #0f1a31;
+  --color-muted: #64748b;
+  --color-subtle: #94a3b8;
+  --color-footer-text: #b8c2d6;
+  --color-footer-placeholder: #7c8aa5;
+
+  /* Surfaces */
+  --color-canvas: #f8fafc;
+  --color-surface: #f1f5f9;
+  --color-line: #e2e8f0;
+  --color-line-strong: #cbd5e1;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-success-50: #f0fdf4;
+  --color-warning: #f59e0b;
+  --color-warning-700: #d97706;
+  --color-warning-50: #fffbeb;
+  --color-danger: #dc2626;
+  --color-danger-50: #fef2f2;
+
+  /* Avatar / shop colors */
+  --color-avatar-blue: #2563eb;
+  --color-avatar-navy: #14213d;
+  --color-avatar-sky: #0ea5e9;
+  --color-avatar-green: #16a34a;
+  --color-avatar-violet: #8b5cf6;
+  --color-avatar-orange: #d97706;
+  --color-avatar-red: #dc2626;
+  --color-avatar-teal: #0f766e;
+  --color-avatar-slate: #475569;
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* Layout */
+  --container-page: 1280px;
+  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.04);
+  --shadow-pop: 0 12px 32px -8px rgb(15 23 42 / 0.18);
+}

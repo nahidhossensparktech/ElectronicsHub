@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import '@repo/config-tailwind/theme.css';
+
+@source '../../../../packages/ui/src';
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-white font-sans text-ink;
+  }
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}

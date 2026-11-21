@@ -1,0 +1,5 @@
+export { getMoreFromShop, getProductDetail, getSimilarProducts } from './api/product-detail'
+export { ProductDetailsPanel } from './components/ProductDetailsPanel'
+export { ProductGallery } from './components/ProductGallery'
+export { ProductSummary } from './components/ProductSummary'
+export { SellerCard } from './components/SellerCard'
